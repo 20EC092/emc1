@@ -1,0 +1,74 @@
+<DOCTYPE html>
+    <html>
+        <title> Login Page </title>
+        <style>
+            .one
+            {
+                background-color: white;
+                color: black;
+                height: 300px;
+                width: 300px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: fixed;
+                padding: 20px;
+                border-color: red;
+                border-style: solid;
+                border-radius: 20px;
+                top: 20%;
+                left: 40%
+            }
+            input
+            {
+                height: 30px;
+                width: 200px;
+            }
+            #btn
+            {
+                background-color: blue;
+                height: 30px;
+                width: 200px;
+                border-radius: 10px;
+                color: white;
+                cursor: pointer;
+            }
+            #btn:hover
+            {
+                background-color: red;
+            }
+            p
+            {
+                font-size: 20px;
+            }
+        </style>
+    </html>
+    <body>
+        <div class="one">
+            <form action="file:///C:/Users/owner/Desktop/Github1/project/format.html" target="_blank">
+                <h1 id="one"> Login form </h1>
+                <p><b> Username: </b></p>
+                <input type="text" placeholder="Enter the Uername" id="username">
+                <br>
+                <p><b> Password: </b></p>
+                <input type="password" placeholder="Enter the password" id="password">
+                <br><br>
+                <button id="btn"> Submit </button>
+            </form>
+        </div>
+        <script>
+            const uName="varshinit2002@gmail.com";
+            const uPassword="Varshinit@18";
+            let name=document.getelementById("username"),value;
+            let password=docment.getElementById("password").value;
+            if(name==uName && password==uPassword)
+            {
+               alert("OK");
+            }
+            else
+            {
+                alert("Not-OK");
+            }
+        </script>
+    </body>
+</DOCTYPE>
