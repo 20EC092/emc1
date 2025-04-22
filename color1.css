@@ -1,0 +1,40 @@
+#three
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+#box1
+{
+    height: 100%;
+    width: 100%;
+    border-color: red;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 20px;
+    margin: 20px;
+}
+#box
+{
+    display: flex;
+}
+#footer
+{
+    background-color: gray;
+    color: black;
+    height: 50%;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#footer:hover
+{
+    color: white;
+}
